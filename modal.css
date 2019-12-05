@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+:root {
+    --modal-duration: 1s;
+}
+
+.modal {
+    display:none ;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.modal-content {
+    position: relative;
+    background: white;
+    text-align: center;
+    margin: 5% auto;
+    width: 430px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 3rem;
+    box-shadow: 7px 9px 21px -11px rgba(0, 0, 0, 1);
+    animation-name: modalopen;
+    animation-duration: 1ms;
+
+}
+
+.modal-content p {
+    max-width: 100%;
+}
+
+.modal-content img {
+    margin: auto;
+}
+.modal-content .device {
+    margin: auto;
+}
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 1</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="modal.css" />
+ 
+</head>
+<body>
+  <div class="container">
+    <div class="choices">
+
+     <div id="mobile" class="choice " onclick="showMobile('.modal')">
+       <img src="/img/device.svg" class="device" alt="smartphone icon" height="150px" width="100px" />
+       <h1>MOBILE</h1>
+       <p>
+       Get notifications about new releases in our mobile app.
+       </p>
+       <div class="price"><sup>$</sup><b>10</b> <span>/month</span></div>
+     </div>
+
+     <div id="desktop" class="choice " onclick="showDesktop('.modal')">
+        <img src="/img/laptop.svg" class="device" alt="laptop icon" height="150px" width="100px" />
+       <h1>DESKTOP</h1>
+       <p>
+       Enjoy new episodes on your laptop in browser with our web service, 
+       which supports all the platforms.
+       </p>
+       <div class="price"><sup>$</sup><b>15</b> <span>/month</span></div>
+     </div>
+     <div id="tv" class="choice " onclick="showTv('.modal')">
+        <img src="/img/monitor.svg" class="device" alt="TV icon" height="150px" width="100px" />
+       <h1>TV</h1>
+       <p>Watch your favorite series at home on large screen with our TV 
+       application.
+       </p>
+      <div class="price"><sup>$</sup><b>20</b> <span>/month</span></div>
+     </div>
+     </div>
+  </div>
+   <!-- Modal-->
+   <div class="modal" id="popup" >
+     <div id="result" class="modal-content">
+      
+     </div>
+   </div>
+  <!--
+    Welcome to your first asset!
+
+    You could've noticed there is a link to Roboto font in the head.
+    You can use it in css by typing font-family: Roboto, sans-serif;
+    and you can customize it by using font-weight (400, 500 etc. - numbers in the link tag)
+
+    Good luck and have fun!
+  -->
+   <script src="script.js"></script>
+</body>
+</html>
+
+
