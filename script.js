@@ -3,10 +3,10 @@ function showMobile(i) {
  document.querySelector(i).style.display = 'block';
  document.getElementById('result').innerHTML = `
       <div id = "mobile" >
-          <img src = "/img/cross.svg" id="cross" alt = "cross" onclick='modal.style.display = "none"'
+          <img src = "cross.svg" id="cross" alt = "cross" onclick='modal.style.display = "none"'
            height = "20px" width = "20px" />
           <h2> Confirmation </h2>
-          <img src = "/img/device.svg" alt = "smartphone icon" height = "150px" width = "100px" />
+          <img src = "device.svg" alt = "smartphone icon" height = "150px" width = "100px" />
           <h1> MOBILE </h1> 
           <p>
           Get notifications about new releases in our mobile app. 
@@ -21,10 +21,10 @@ function showDesktop(i) {
     document.querySelector(i).style.display = 'block';
     document.getElementById('result').innerHTML = `
     <div id="desktop" >
-        <img src = "/img/cross.svg" id="cross" alt = "cross" onclick='modal.style.display = "none"'
+        <img src = "cross.svg" id="cross" alt = "cross" onclick='modal.style.display = "none"'
            height = "20px" width = "20px" />
           <h2> Confirmation </h2>
-        <img src="/img/laptop.svg" class="device" alt="laptop icon" height="150px" width="100px" />
+        <img src="laptop.svg" class="device" alt="laptop icon" height="150px" width="100px" />
        <h1>DESKTOP</h1>
        <p>
        Enjoy new episodes on your laptop in browser with our web service, 
@@ -41,10 +41,10 @@ function showDesktop(i) {
     document.querySelector(i).style.display = 'block';
     document.getElementById('result').innerHTML = `
     <div id="tv" >
-        <img src = "/img/cross.svg" id="cross" alt = "cross" onclick='modal.style.display = "none"'
+        <img src = "cross.svg" id="cross" alt = "cross" onclick='modal.style.display = "none"'
            height = "20px" width = "20px" />
           <h2> Confirmation </h2>
-        <img src="/img/monitor.svg" class="device" alt="TV icon" height="150px" width="100px" />
+        <img src="monitor.svg" class="device" alt="TV icon" height="150px" width="100px" />
        <h1>TV</h1>
        <p>Watch your favorite series at home on large screen with our TV 
        application.
